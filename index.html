@@ -1,0 +1,122 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<!-- Заголовок страницы в браузере -->
+	<title>Katy Painty</title>
+	<!-- Кодировка страницы -->
+	<link rel="stylesheet" href="css/style.css">
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<section id="pluses" class="pluses">
+		<div class="container">
+			<div class="grid-about">
+				<div class="relative">
+					<img class="img-about" src="img/HB about.png" alt="decoration"></div>
+				<div class="about-text">
+					<h2>Все больше клиентов выбирают <span>Katy Painty</span></h2>
+					<h3>Давно работаем в сфере росписи стен</h3>
+					<p>Среди наших заказчиков есть известные сетевые кафе и салоны красоты.</p>
+					<p class="p-indent">Обратившись к нам вы найдете надежного исполнителя и помощника в реализации своих
+					творческих <br /> планов и задач.</p>
+				</div>
+			</div>
+			<div class="grid-pluses">
+				<div>
+					<div class="number">230 +</div>
+					<p>Реализованных проектов и довольных клиентов</p>
+				</div>
+				<div>
+					<div class="number">5</div>
+					<p>Лет опыта росписи <br /> помещений и объектов</p>
+				</div>
+				<div>
+					<div class="number">8</div>
+					<p>Городов в списке нашей творческой биографии</p>
+				</div>
+				<div>
+					<div class="number">99%</div>
+					<p>Клиентов рекомендуют <br /> нас друзьям и знакомым</p>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section id="quiz" class="quiz">
+		<div class="container">
+			<h2>Предварительный расчет стоимости росписи</h2>
+			<form action="#" method="post" enctype="multipart/form-data">
+				<div>
+					<h3>Объект оформления</h3>
+					<select tabindex="1" name="object">
+						<option value="select">Выбрать</option>
+						<option value="wall in the apartment">Стена в квартире</option>
+						<option value="the facade of the building">Фасад здания</option>
+						<option value="office">Оформление офиса</option>
+						<option value="HoReCa">HoReCa</option>
+						<option value="shop">Оформление магазина</option>
+					</select>
+				</div>
+				<div>
+					<h3>Размер росписи</h3>
+					<p>Ширина <input tabindex="2" name="size" type="text" /> мм.</p>
+					<p>Высота <input tabindex="3" name="size" type="text" /> мм.</p>
+					<p>Количество стен <input tabindex="4" name="size" type="text" /> шт.</p>
+				</div>
+				<div>
+					<h3>Сложность росписи</h3>
+					<select tabindex="5" name="object">
+						<option value="select">Выбрать</option>
+						<option value="black-white">Черно-белая контурная графика</option>
+						<option value="style of frescoes">Роспись в стиле фресок</option>
+						<option value="color filling">Графика с заливкой цветами</option>
+						<option value="watercolor graphics">Акварельная графика</option>
+						<option value="multicolor">Объемная многоцветная</option>
+						<option value="natura">Портреты, животные, пейзажи</option>
+						<option value="other">Другое</option>
+					</select>
+				</div>
+				<div>
+					<h3>Наличие дизайн-проекта</h3>
+					<select tabindex="6" name="object">
+						<option value="select">Выбрать</option>
+						<option value="help with the sketch">Нужна помощь с эскизом</option>
+						<option value="ready-made drawing">Есть готовый рисунок</option>
+					</select>
+				</div>
+				<div>
+					<h3>Дополнительные работы</h3>
+					<p><input tabindex="7" type="checkbox" name="" /> Грунтовка стен </p>
+				</div>
+				<div>
+					<h3>Город</h3>
+					<select tabindex="8" name="object">
+						<option value="select">Выбрать</option>
+						<option value="Moscow">Москва</option>
+						<option value="Saint-Petersburg">Санкт-Петербург</option>
+						<option value="Leningrad Region">Ленинградская область</option>
+						<option value="Other">Другое</option>
+					</select>
+				</div>
+				<div>
+					<h3>Номер телефона</h3>
+					<input tabindex="9" type="tel" name="userphone" />
+				</div>
+				<div>
+					<button tabindex="10" type="submit">Заказать роспись</button>
+				</div>
+			</form>
+		</div>
+		<div class="bg-image-quiz"></div>
+	</section>
+	
+	
+
+</body>
+
+</html>
